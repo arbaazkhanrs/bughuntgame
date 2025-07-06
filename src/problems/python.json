@@ -1,0 +1,63 @@
+{
+  "1": {
+    "problem": "def add(a, b):\n  return a - b",
+    "fix_keywords": [
+      "+"
+    ]
+  },
+  "2": {
+    "problem": "x = 5\nif x = 5:\n  print('Wrong')",
+    "fix_keywords": [
+      "=="
+    ]
+  },
+  "3": {
+    "problem": "for i in range(3):\n  def show():\n    print(i)\n  show()",
+    "fix_keywords": [
+      "i"
+    ]
+  },
+  "4": {
+    "problem": "def greet(name):\n  print('Hi' + names)",
+    "fix_keywords": [
+      "name"
+    ]
+  },
+  "5": {
+    "problem": "lst = [1,2,3]\nprint(lst[5])",
+    "fix_keywords": [
+      "try",
+      "except"
+    ]
+  },
+  "6": {
+    "problem": "def divide(a,b):\n return a/b\nprint(divide(5,0))",
+    "fix_keywords": [
+      "ZeroDivisionError"
+    ]
+  },
+  "7": {
+    "problem": "x = input()\nprint(x + 1)",
+    "fix_keywords": [
+      "int"
+    ]
+  },
+  "8": {
+    "problem": "print(undeclared_var)",
+    "fix_keywords": [
+      "NameError"
+    ]
+  },
+  "9": {
+    "problem": "d = {'a':1}\nprint(d['b'])",
+    "fix_keywords": [
+      "get"
+    ]
+  },
+  "10": {
+    "problem": "def f():\n x += 1\n print(x)",
+    "fix_keywords": [
+      "global"
+    ]
+  }
+}

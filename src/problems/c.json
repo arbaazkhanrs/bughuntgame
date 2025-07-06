@@ -1,0 +1,64 @@
+{
+  "1": {
+    "problem": "int *p;\n*p = 10;",
+    "fix_keywords": [
+      "malloc"
+    ]
+  },
+  "2": {
+    "problem": "int a;\nprintf(\"%d\", a);",
+    "fix_keywords": [
+      "initialize"
+    ]
+  },
+  "3": {
+    "problem": "char* s = \"abc\";\ns[0] = 'A';",
+    "fix_keywords": [
+      "strcpy"
+    ]
+  },
+  "4": {
+    "problem": "int x = 5 / 0;",
+    "fix_keywords": [
+      "division"
+    ]
+  },
+  "5": {
+    "problem": "int arr[3] = {1,2,3};\nprintf(\"%d\", arr[5]);",
+    "fix_keywords": [
+      "bounds"
+    ]
+  },
+  "6": {
+    "problem": "int x = 10\nprintf(\"%d\", x);",
+    "fix_keywords": [
+      ";"
+    ]
+  },
+  "7": {
+    "problem": "int x = 'abc';",
+    "fix_keywords": [
+      "char"
+    ]
+  },
+  "8": {
+    "problem": "void f() {\n return 5;\n}",
+    "fix_keywords": [
+      "return",
+      "int"
+    ]
+  },
+  "9": {
+    "problem": "if x == 1 {\n printf(\"Yes\");\n}",
+    "fix_keywords": [
+      "()",
+      "if"
+    ]
+  },
+  "10": {
+    "problem": "int a = 2, b = 3;\nprintf(\"%d\", a + b)\nreturn 0;",
+    "fix_keywords": [
+      ";"
+    ]
+  }
+}

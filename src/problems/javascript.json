@@ -1,0 +1,64 @@
+{
+  "1": {
+    "problem": "function add(a, b) {\n  return a - b;\n}",
+    "fix_keywords": [
+      "+"
+    ]
+  },
+  "2": {
+    "problem": "let x = 10;\nif (x = 5) {\n  console.log('wrong');\n}",
+    "fix_keywords": [
+      "=="
+    ]
+  },
+  "3": {
+    "problem": "for (var i = 0; i < 3; i++) {\n  setTimeout(() => console.log(i), 100);\n}",
+    "fix_keywords": [
+      "let"
+    ]
+  },
+  "4": {
+    "problem": "const obj = {};\nconsole.log(obj.name.toLowerCase());",
+    "fix_keywords": [
+      "?.",
+      "optional"
+    ]
+  },
+  "5": {
+    "problem": "let arr = [1,2,3];\narr.map(x => { x * 2 });",
+    "fix_keywords": [
+      "return"
+    ]
+  },
+  "6": {
+    "problem": "function isEven(n) {\n return n % 2;\n}\nconsole.log(isEven(4));",
+    "fix_keywords": [
+      "=== 0"
+    ]
+  },
+  "7": {
+    "problem": "let result = '5' - 2;\nconsole.log(result);",
+    "fix_keywords": [
+      "parseInt"
+    ]
+  },
+  "8": {
+    "problem": "let x = 5;\nif (!x) console.log('no');",
+    "fix_keywords": [
+      "truthy"
+    ]
+  },
+  "9": {
+    "problem": "function greet(name) {\n  console.log('Hello ' + Name);\n}\ngreet('Bob');",
+    "fix_keywords": [
+      "name"
+    ]
+  },
+  "10": {
+    "problem": "function test() {\n let a;\n if(a.length === 0) {\n console.log('empty');\n }\n}",
+    "fix_keywords": [
+      "undefined",
+      "safe"
+    ]
+  }
+}

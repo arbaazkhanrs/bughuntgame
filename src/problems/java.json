@@ -1,0 +1,62 @@
+{
+  "1": {
+    "problem": "int x;\nSystem.out.println(x);",
+    "fix_keywords": [
+      "initialize"
+    ]
+  },
+  "2": {
+    "problem": "String s = null;\nSystem.out.println(s.length());",
+    "fix_keywords": [
+      "null"
+    ]
+  },
+  "3": {
+    "problem": "if(x = 5) System.out.println('Wrong');",
+    "fix_keywords": [
+      "=="
+    ]
+  },
+  "4": {
+    "problem": "int[] arr = new int[3];\nSystem.out.println(arr[5]);",
+    "fix_keywords": [
+      "bounds"
+    ]
+  },
+  "5": {
+    "problem": "String a = \"hello\";\nif(a == \"hello\") System.out.println(\"Match\");",
+    "fix_keywords": [
+      ".equals"
+    ]
+  },
+  "6": {
+    "problem": "for (int i=0;i<3;i++);\nSystem.out.println(i);",
+    "fix_keywords": [
+      "braces"
+    ]
+  },
+  "7": {
+    "problem": "int r = 10/0;",
+    "fix_keywords": [
+      "try"
+    ]
+  },
+  "8": {
+    "problem": "Object o = new Integer(10);\nString s = (String)o;",
+    "fix_keywords": [
+      "cast"
+    ]
+  },
+  "9": {
+    "problem": "System.out.println(\"Hello)",
+    "fix_keywords": [
+      "quote"
+    ]
+  },
+  "10": {
+    "problem": "public class T {\n public void T() {\n System.out.println(\"wrong\");\n }\n}",
+    "fix_keywords": [
+      "constructor"
+    ]
+  }
+}
