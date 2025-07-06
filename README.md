@@ -2,6 +2,12 @@
 
 **BugHunt** is a web-based coding game where players fix buggy code in different programming languages — like JavaScript, Python, Java, and C — across 10 levels of increasing difficulty.
 
+## 🌐 Live Demo
+
+Play the BugHunt Game here:  
+[🔗 https://bughunt-arbaaz.netlify.app](https://bughunt-arbaaz.netlify.app)
+
+
 ## 🚀 Features
 
 - 🧠 4 programming categories: JavaScript, Python, Java, C
