@@ -5,7 +5,7 @@
 ## 🌐 Live Demo
 
 Play the BugHunt Game here:  
-[🔗 https://bughunt-arbaaz.netlify.app](https://bughunt-arbaaz.netlify.app)
+[🔗 https://bughuntgame-arbaaz.netlify.app](https://bughuntgame-arbaaz.netlify.app)
 
 
 ## 🚀 Features
